@@ -20,33 +20,14 @@
  *
  *	SPDX-License-Identifier: GPL-3.0
  *-->
-<RuleCartridge
+ <RuleCartridge
 		xmlns="http://ycf.markhome.server/msscf/2.0.13/xsd/cfgenkb-2.13-cartridge.xsd"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xsi:schemaLocation="http://ycf.markhome.server/msscf/2.0.13/xsd/cfgenkb-2.13-cartridge.xsd http://ycf.markhome.server/msscf/2.0.13/xsd/cfgenkb-2.13-cartridge.xsd"
-		Name="server-markhome-cf-layered+msscf"
-		Revision="2.13"
-		Descr="MSS Code Factory Application extending MssCFCore">
+		Name="server-markhome-giai-3-1-giai-toolset-any"
+		Revision="3.1"
+		Descr="Guided Intelligence Architecture Implementation Generic Any Rules For Knowledge Base">
 	<Tool Name="any" />
-	<!--Tool Name="msscf" / -->
-	<Tool Name="java" />
-	<Tool Name="rust" />
-	<Tool Name="saxloader" />
-	<Tool Name="javafx" />
-	<!--Tool Name="loader" / -->
-	<UseCartridge Name="server-markhome-ycf-30-toolset-any" />
-	<UseCartridge Name="server-markhome-ycf-30-toolset-java" />
-	<UseCartridge Name="server-markhome-ycf-30-toolset-javafx" />
-	<UseCartridge Name="server-markhome-ycf-30-toolset-java+javafx" />
-	<UseCartridge Name="server-markhome-ycf-30-toolset-rust" />
-	<UseCartridge Name="server-markhome-ycf-30-toolset-saxloader" />
-	<UseCartridge Name="server-markhome-ycf-30-toolset-java+saxloader" />
 	<ToolSet Name="any" />
-	<ToolSet Name="java" />
-	<ToolSet Name="rust" />
-	<ToolSet Name="java+javafx" />
-	<ToolSet Name="java+saxloader" />
-	<ToolSet Name="javafx" />
-	<ToolSet Name="saxloader" />
 </RuleCartridge>
